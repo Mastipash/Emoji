@@ -1,0 +1,16 @@
+<mat-sidenav-container>
+    <mat-sidenav mode="side" opened><nav>
+      <ul>
+        <li><a routerLink="/all">Все</a></li>
+        <li><a routerLink="/like">Любимые</a></li>
+        <li><a routerLink="/delete">Удаленные</a></li>
+      </ul>
+    </nav></mat-sidenav>
+    <mat-sidenav-content>
+      <section>
+          <router-outlet></router-outlet>
+        </section>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+

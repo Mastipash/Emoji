@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;  
+}
+mat-sidenav {
+    width: 15%;
+    background-color: rebeccapurple;
+}
+mat-sidenav li {
+    color: antiquewhite;
+}
+mat-sidenav a {
+    color: antiquewhite;
+}
+
+table {
+    width: 100%;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+table td {
+    text-align: left;
+}
+    
+
+ .thumb {
+    width: 25px;
+    height: 25px;
+    opacity: 0.75;
+}
